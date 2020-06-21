@@ -1,3 +1,5 @@
-pwdgen/
-.vscode/
-output.txt
+/.git
+/.idea
+/.vscode
+/output.txt
+/pwdgen

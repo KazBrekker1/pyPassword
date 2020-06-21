@@ -1,11 +1,11 @@
 from password_generator import PasswordGenerator
 
 pwd_gen = PasswordGenerator()
-pwd_gen.minuchars = 3
-pwd_gen.minlchars = 3
-pwd_gen.minnumbers = 3
-pwd_gen.minschars = 2
-pwd_gen.excludeschars = ",$._<>%?*"
+pwd_gen.minuchars = 3  # Minimum Number of Upper Cased Letters
+pwd_gen.minlchars = 3  # Minimum Number of  Lower Cased Letters
+pwd_gen.minnumbers = 3  # Minimum Number of Digits
+pwd_gen.minschars = 2 # Minimum Number of Special Characters
+pwd_gen.excludeschars = ",$._<>%?*" # Excluded Special Characters
 
 if __name__ == "__main__":
     while True:
